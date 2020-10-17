@@ -1,0 +1,251 @@
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nobile', sans-serif;
+*/
+@font-face{
+    font-family: "Amsdam Regular";
+    src: url(../fonts/Amsdam\ Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1700px;
+}
+
+/* Header */
+.logo{
+    font-weight: 500;
+    padding-bottom: 5px;
+    display: flex;
+}
+.logo-name {
+    align-items: center;
+    margin-top: 10px;
+}
+.logo img{
+    width: 40px;
+    height: 30px;
+    padding-right: 14px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px ;
+    height: 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.menu {
+    list-style: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+/* Social */
+
+ul .social{
+    height: 40px;
+    width: 40px;
+}
+.soc > li{
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+.soc > li::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 0;
+    background-color: #aaa;
+}
+.soc > li:first-child::before{
+    display: none;
+}
+.soc > li > i{
+    color: #aaa;
+}
+
+
+
+/* Content */
+.content{
+    height: 630px;
+    background-image: url(../img/home-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.wrap{
+    display: block;
+    padding-top: 190px;
+    padding-bottom: 200px;
+    color:#fff;
+    text-align: center;
+}
+.title{
+    font-family: 'Amsdam';
+    margin-top:62px;
+    margin-bottom: 84px;
+}
+.discription {
+    font-size: 14px;
+    font-family: 'Crimson Text', serif;
+}
+.btn{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    border: 2px solid #fff;
+    padding: 14px 24px 15px;
+    transition: .4s;
+}
+.btn:hover{
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: #3e3d3d;
+}
+
+/* About Us */
+.about{
+    align-items: center;
+    font-size: 14px;
+    background-color: #e3e3e3;
+    padding-top: 75px;
+}
+.about_text{
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 50px;
+    max-width: 1000px;
+}
+.button{
+    color: #3e3d3d;
+    text-decoration: none;
+    font-size: 13px;
+    border: 2px solid #3e3d3d;
+    padding: 14px 24px 15px;
+    transition: .4s;
+}
+.button:hover{
+    border: 2px solid #3e3d3d;
+    background-color: #3e3d3d;
+    color: #aaa;
+}
+.bl{
+    text-align: center;
+    max-width: 1170px;
+    background-color: #fff;
+    padding-bottom: 50px;
+}
+.bl img{
+    max-width: 100%;
+}
+
+.resul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 1000px;
+    align-items: center;
+}
+.label{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 270px;
+    height: 160px;
+    margin-bottom: 65px;
+}
+.label::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: 0;
+    background-color: #b0b0b0;
+}
+.label:first-child::before{
+    display: none;
+}
+.ic img{
+    width: 40px;
+    height: 40px;
+}
+.resul div{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.short-title{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    max-width: 70px;
+}
+.short-index{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+/* Services */
+.services{
+    background-image: url(../img/services-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 750px;
+}
+.twho_title{
+    font-family: 'Amsdam';
+    margin-bottom: 84px;
+    padding-top: 60px;
+}
+.twho_title, .about_text1{
+    max-width: 1000px;
+    text-align: center;
+    color: #fff;
+}
+.servis-info{
+    padding-top: 70px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.servis-info div{
+    border: 1px solid #898989;
+    max-height: 370px;
+    padding: 50px 30px 40px;
+}
+.short-text{
+    max-width: 230px;
+    text-align: center;
+    color: #fff;
+}
+div h3{
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 100px;
+    color: #fff;
+}
