@@ -232,10 +232,6 @@ ul .social{
     display: flex;
     justify-content: space-between;
 }
-.servis-info div{
-    border: 1px solid #898989;
-    padding: 50px 30px 40px;
-}
 .short-text{
     max-width: 200px;
     max-height: 240px;
@@ -244,11 +240,13 @@ ul .social{
 }
 div h3{
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     max-width: 100px;
     color: #fff;
 }
 .inner{
-    min-height: 370px;
+    max-height: 340px;
+    border: 1px solid #898989;
+    padding: 20px 30px;
 }
