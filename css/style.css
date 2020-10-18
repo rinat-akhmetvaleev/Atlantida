@@ -262,7 +262,7 @@ div h3{
     flex: 1 0 auto;
     height: 1px;
     background-color: #898989;
-  }
+}
 .fab,
 .fas{
     color: #d8d8d8;
@@ -270,3 +270,6 @@ div h3{
     height: 30px;
     margin: 0 25px;
 }
+
+
+/* Our Team */
