@@ -218,7 +218,7 @@ ul .social{
 }
 .twho_title{
     font-family: 'Amsdam';
-    margin-bottom: 84px;
+    margin-bottom: 50px;
     padding-top: 60px;
 }
 .twho_title, .about_text1{
@@ -273,3 +273,53 @@ div h3{
 
 
 /* Our Team */
+.team{
+    background-image: url(../img/our-team/our-team-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.color_text{
+    color: #3e3d3d;
+}
+.cnt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    max-width: 900px;
+    padding-bottom: 60px;
+}
+
+/* Cards */
+
+.cards{
+    width: 270px;
+    height: 330px;
+    position: relative;
+}
+.person_info{
+    display: none;
+    width: 250px;
+    height: 310px;
+    background-size: 250px 310px;
+    background-color: rgba(204, 204, 204, .7);
+}
+.cards:hover .person_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    color: #3e3d3d;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.prof{
+    font-family: 'Crimson Text', serif;
+}
+.fab{
+    color: #3e3d3d;
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+}
