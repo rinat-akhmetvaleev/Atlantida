@@ -290,8 +290,6 @@ div h3{
     padding-bottom: 60px;
 }
 
-/* Cards */
-
 .cards{
     width: 270px;
     height: 330px;
@@ -323,3 +321,18 @@ div h3{
     height: 10px;
     margin: 5px;
 }
+/* Our Team */
+
+/* Portfolio */
+.photo_potrfolio{
+    display: flex;
+    max-height: 700px;
+}
+
+/* Portfolio */
+
+/* Price */
+.price_info{
+    display: flex;
+}
+/* Price */
