@@ -225,6 +225,10 @@ ul .social{
     max-width: 1000px;
     text-align: center;
     color: #fff;
+    margin-bottom: 50px;
+}
+.about_text1{
+    font-family: 'Crimson Text', serif;
 }
 .servis-info{
     padding-top: 70px;
@@ -238,7 +242,7 @@ ul .social{
     text-align: center;
     color: #fff;
 }
-div h3{
+.servis-info h3{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -328,11 +332,92 @@ div h3{
     display: flex;
     max-height: 700px;
 }
-
+.filter button{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #3e3d3d;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #3e3d3d;
+    padding: 15px 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+.filter button:hover{
+    border: 2px solid #3e3d3d;
+    background-color: #3e3d3d;
+    color: #aaa;
+}
 /* Portfolio */
 
 /* Price */
+.price{
+    background-color: #e3e3e3;
+}
 .price_info{
     display: flex;
+    max-width: 1200px;
+    padding-bottom: 100px;
+    justify-content: space-evenly;
+}
+.price_card{
+    width: 370px;
+    display: block;
+    height: 550px;
+    text-align: center;
+    background-color: #fff;
+}
+.price_card .price_title{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.price_logo{
+    height: 25px;
+    width: 25px;
+    padding: 15px;
+    border: 2px solid #3e3d3d;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+.cost{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+.info_price p{
+    line-height: 25px;
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}
+.buy{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #3e3d3d;
+    text-decoration: none;
+    font-size: 13px;
+    background-color: #fff;
+    border: 2px solid #3e3d3d;
+    padding: 14px 24px 15px;
+    transition: .4s;
+    cursor: pointer;
+}
+.buy:hover{
+    border: 2px solid #3e3d3d;
+    background-color: #3e3d3d;
+    color: #aaa;
 }
 /* Price */
+
+/* Client */
+.client_logo{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+/* Client */
