@@ -329,7 +329,6 @@ ul .social{
 
 /* Portfolio */
 .photo_potrfolio{
-    display: flex;
     max-height: 700px;
 }
 .filter button{
@@ -423,11 +422,45 @@ ul .social{
 /* Client */
 
 /* Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+.footer_logo{
+    display: flex;
+    margin-bottom: 50px;
+}
+.footer_logo img{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.footer_logo p{
+    margin-left: 0;
+}
+.footer_info{
+    width: 400px;
+    margin-top: 60px;
+}
+.footer_info p{
+    color: #fff;
+}
 .footer_cop{
     font-family: 'Crimson Text', serif;
     font-style: italic;
+    color: #949494;
 }
-footer{
-    background-image: url(../img/);
+.footer_wrap{
+    background-image: url(../img/footer.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.connection{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    margin-top: 120px;
 }
 /* Footer */
