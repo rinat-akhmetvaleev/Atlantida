@@ -421,3 +421,13 @@ ul .social{
     margin-bottom: 100px;
 }
 /* Client */
+
+/* Footer */
+.footer_cop{
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+}
+footer{
+    background-image: url(../img/);
+}
+/* Footer */
