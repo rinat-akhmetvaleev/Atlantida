@@ -254,25 +254,16 @@ ul .social{
     border: 1px solid #898989;
     border-top: 0;
     padding: 20px 30px;
+    position: relative;
 }
 .inner i{
-    margin-top: -35px;
     display: flex;
+    position: absolute;
     align-items: center;
-}
-.inner::before, 
-.inner::after {
-    content: '';
-    flex: 1 0 auto;
-    height: 1px;
-    background-color: #898989;
-}
-.fab,
-.fas{
     color: #d8d8d8;
     width: 30px;
     height: 30px;
-    margin: 0 25px;
+    margin: -36px 90px;
 }
 
 
