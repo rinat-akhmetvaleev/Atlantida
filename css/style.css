@@ -17,6 +17,18 @@ font-family: 'Nobile', sans-serif;
 .container{
     max-width: 1700px;
 }
+h2{
+    position: relative;
+}
+h2::after{
+    content: '';
+    position: absolute;
+    background-image: url(../img/icon/sub-icon.png);
+    width: 190PX;
+    height: 5PX;
+    color: #000;
+    margin: 43px -148px;
+}
 
 /* Header */
 .logo{
@@ -220,6 +232,7 @@ ul .social{
     font-family: 'Amsdam';
     margin-bottom: 50px;
     padding-top: 60px;
+    width: 130px;
 }
 .twho_title, .about_text1{
     max-width: 1000px;
